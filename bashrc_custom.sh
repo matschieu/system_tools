@@ -56,3 +56,14 @@ red_prompt() {
 	PS1='\[\033[0;31m\]\u@\h:\w\$\[\033[0;0m\]'
 }
 
+docker_clean() {
+	docker system df
+	
+	for i in `docker image list --format "table {{.ID}};{{.Repository}};{{.Tag}};{{.Size}}" | grep "<none>" | cut -d ";" -f 1`; do
+		docker rmi $i
+	done
+	
+	docker system prune -f --volumes
+	
+	docker system df
+}
