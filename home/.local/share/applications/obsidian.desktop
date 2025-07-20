@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Obsidian
+Exec=env GDK_BACKEND=x11 /opt/Obsidian/obsidian
+NoDisplay=false
+Categories=Application
+Icon=/opt/Obsidian/obsidian.png
+MimeType=x-scheme-handler/obsidian;text/html;x-scheme-handler/obsidian+command;x-scheme-handler/obsidian+mpc;x-scheme-handler/xdebug;

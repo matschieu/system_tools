@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Eclipse IDE
+Exec=env GDK_BACKEND=x11 /opt/eclipse/eclipse %u
+#Exec=env WEBKIT_DISABLE_COMPOSITING_MODE=1 /opt/eclipse/eclipse %u
+NoDisplay=false
+Categories=Application
+MimeType=x-scheme-handler/eclipse+command;x-scheme-handler/eclipse+mpc;x-scheme-handler/xdebug;
+Icon=/opt/eclipse/icon.xpm

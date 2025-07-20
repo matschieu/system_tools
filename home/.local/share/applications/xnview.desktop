@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=XnView
+Exec=env GDK_BACKEND=x11 /opt/XnView/xnview.sh
+NoDisplay=false
+Categories=Application
+MimeType=
+Icon=/opt/XnView/xnview.png

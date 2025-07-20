@@ -4,6 +4,7 @@ alias ll="ls -lih --color=auto"
 alias eclipse="/opt/eclipse/eclipse"
 alias lampp="sudo /opt/lampp/lampp"
 alias lampp-gui="sudo /opt/lampp/manager-linux-x64.run"
+alias xnview="/opt/XnView/xnview.sh"
 alias aptu="sudo apt update && sudo apt upgrade"
 alias docker="sudo docker"
 
